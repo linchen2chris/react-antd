@@ -1,15 +1,17 @@
+import 'antd/dist/antd.css';
+
 import './index.css';
 
-import 'antd/dist/antd.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import { Button1 } from './stories/Button';
 import Demo from './Demo';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Demo />
+    <Button1 label="test" />
   </React.StrictMode>,
   document.getElementById('root')
 );
